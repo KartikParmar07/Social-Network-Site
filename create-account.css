@@ -1,0 +1,79 @@
+div {
+ padding-left:40px;
+   margin-right:450px;
+   margin-left:300px;
+   margin-top:30px;
+  border: 1px solid ;
+}
+p{
+	font-size:15px;
+	font-family:fangsong;
+}
+/*Create-account page*/
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 5px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+.button1 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #FA396F;
+}
+
+.button1:hover {
+  background-color: #FA396F;
+  color: white;
+   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+input[type=text] {
+ 
+  width: 75%;
+  padding: 10px 10px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 1px;
+  background-color: white;
+  color: black;
+}
+input[type=text]:hover{
+border: 1px solid  #FA396F;
+border-radius: 5px;
+}
+input[type=email] {
+  width: 75%;
+  padding: 10px 10px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 1px;
+  background-color: white;
+  color: black;
+}
+input[type=email]:hover{
+border: 1px solid  #FA396F;
+border-radius: 5px;
+}
+input[type=password] {
+  width: 75%;
+  padding: 10px 10px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 1px;
+  background-color: white;
+  color: black;
+}
+input[type=password]:hover{
+border: 1px solid  #FA396F;
+border-radius: 5px;
+}
+

@@ -1,0 +1,235 @@
+/*LOGIN-PAGE*/
+div {
+ padding-left:40px;
+   margin-right:450px;
+   margin-left:300px;
+   margin-top:100px;
+  border: 1px solid ;
+}
+p{
+	font-size:15px;
+	font-family:fangsong;
+	padding-left:20px;
+}
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 5px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+.button1 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #FA396F;
+}
+
+.button1:hover {
+  background-color: #FA396F;
+  color: white;
+   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.button2 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #008CBA;
+}
+
+.button2:hover {
+  background-color: #008CBA;
+  color: white;
+   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+input[type=text] {
+  width: 75%;
+  padding: 10px 10px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 1px;
+  background-color: white;
+  color: black;
+}
+input[type=text]:hover{
+border: 1px solid  #008CBA;
+border-radius: 5px;
+}
+input[type=email] {
+  width: 75%;
+  padding: 10px 10px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 1px;
+  background-color: white;
+  color: black;
+}
+input[type=email]:hover{
+border: 1px solid  #008CBA;
+border-radius: 5px;
+}
+input[type=password] {
+  width: 75%;
+  padding: 10px 10px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 1px;
+  background-color: white;
+  color: black;
+}
+input[type=password]:hover{
+border: 1px solid  #008CBA;
+border-radius: 5px;
+}
+}
+/*INDEX PAGE*/
+
+* {box-sizing: border-box;}
+
+body { 
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+  overflow: hidden;
+  background-color: 020127;
+  padding: 20px 10px;
+  padding-bottom:50px;
+}
+
+.header a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px; 
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+.header a.logo {
+  font-size: 35px;
+  font-weight: bold;
+  color:20F0EA;
+}
+
+.header a:hover {
+  background-color: 20F0EA;
+  color: black;
+   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.header a.active {
+  background-color: dodgerblue;
+  color: white;
+}
+
+.header-right {
+  float: right;
+}
+
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .header-right {
+    float: none;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .header-right {
+    float: none;
+  }
+}
+
+/*File upload*/
+.container{
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  // align-content: center;
+  align-items: center;
+  width: 50%;
+  height: 50vh;
+  padding-left:800px;
+  background-color: silver;
+  }
+  .btn-upload{
+    padding: 5px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  background-color: white; 
+  color: black; 
+  border: 2px solid #008CBA;
+	}
+	.btn-upload:hover {
+  background-color: #008CBA;
+  color: white;
+   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+  .preview-box{
+    display: flex;
+    justify-content: center;
+    max-width: 1000px;
+    height: calc(60vh - 60px);
+    
+   
+}
+  .preview-content{
+	  padding-right:1000px;
+    width: auto;
+    height: inherit;
+  }
+/*Hr tag css_________________________________________*/
+hr.new4 {
+  border: 3px solid #008CBA;
+}
+
+
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+  .modal-content {
+    width: 100%;
+  }
+}
+
+
+/* -- Grid elements --------------------------------------------------------------------------------------------------------------------- */
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: white;
+  padding: 10px;
+}
+.grid-item {
+  padding: 0px;
+  font-size: 30px;
+  text-align: center;
+  top-padding: 10px;
+  padding-bottom: 20px;
+}
+
+
