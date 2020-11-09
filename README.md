@@ -13,5 +13,5 @@ Technlogies used for this project:
 (e)XAMPP server
 
 DataBase connectivity:
-MySQL Server- Hosted at phpMyAdmin
-PHP-PDO(PHP Database Object)
+(a)MySQL Server- Hosted at phpMyAdmin
+(b)PHP-PDO(PHP Database Object)
